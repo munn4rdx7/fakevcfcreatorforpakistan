@@ -1,3 +1,4 @@
+# MAde By MnnaRDX
 from faker import Faker
 import random
 fake = Faker('en_PK')
@@ -24,7 +25,7 @@ def createvcf():
 def file():
     a = int(input(('Enter how much contacts you want :')))
     b = input('Enter the file name :')
-    ex = '.vcf'
+    ex = '_munnardx.vcf'
     for _ in range(a):
         with open(f'{b}{ex}','a') as f:
             f.write(f'''BEGIN:VCARD
